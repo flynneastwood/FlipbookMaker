@@ -11,7 +11,7 @@ Core of this code came from this tutorial: https://minzkraut.com/2016/11/23/maki
 You have to get Python 3 to make it work https://www.python.org/downloads/
 You need Pip installed to get the Pillow library with the command: pip install Pillow
 
-Place your rendered sequence in the SubUV_Render
+Place your rendered sequence in a folder called SubUV_Render
 Open a Powershell in the script directory and launch the command: python .\flipbookMaker.py
 The final texture will be created in the same directory.
 
@@ -27,6 +27,6 @@ Il est nécessaire d'avoir Python 3 d'installé https://www.python.org/downloads
 Installer pip
 Installer Pillow avec cette commande: pip install Pillow
 
-Placer les images dans le dossier SubUV_Render
+Placer les images dans un dossier nommé SubUV_Render
 Ouvrir un terminal PowerShell au même endroit que le script et exécuter la commande: python .\flipbookMaker.py
 La texture finale sera créer dans ce même dossier.
