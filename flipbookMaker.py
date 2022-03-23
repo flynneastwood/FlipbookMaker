@@ -31,7 +31,6 @@ else:
     spritesheet_width = tile_width*len(frames)
     spritesheet_height = tile_height
     
-print("Final resolution is " + str(spritesheet_height) + " by " + str(spritesheet_width))
 print("Work is done! POG")
 
 spritesheet = Image.new("RGBA",(int(spritesheet_width), int(spritesheet_height)))
@@ -48,5 +47,5 @@ for current_frame in frames :
     
     spritesheet.paste(cut_frame, box)
     
-    
-spritesheet.save("T_SubUV_D" + ".png", "PNG")
+resized_spritesheet = spritesheet.resize((512,512))    
+resized_spritesheet.save("T_SubUV_D" + ".png", "PNG")
