@@ -31,7 +31,6 @@ else:
     spritesheet_width = tile_width*len(frames)
     spritesheet_height = tile_height
     
-print("Work is done! POG")
 
 spritesheet = Image.new("RGBA",(int(spritesheet_width), int(spritesheet_height)))
 
@@ -49,3 +48,6 @@ for current_frame in frames :
     
 resized_spritesheet = spritesheet.resize((512,512))    
 resized_spritesheet.save("T_SubUV_D" + ".png", "PNG")
+
+print("Work is done! POG")
+
